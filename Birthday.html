@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Russel Padayao</title>
+    <link rel="stylesheet" href="Bday.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" id="birthdayCard">
+            <!-- Front Side -->
+            <div class="card-front">
+                <h1>🎉 Happy Birthday, Russel Padayao! 🎉</h1>
+                <button id="openCard">Open Card</button>
+            </div>
+
+            <!-- Back Side -->
+            <div class="card-back">
+                <p>Dear Russel , wishing you all the happiness and success in the world!</p>
+                <audio id="birthdaySong" style="Display:none;" autoplay>
+    <source src="bday.mp3" type="audio/mpeg">
+</audio>
+                <button id="closeCard">Close Card</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="Bday.js"></script>
+</body>
+</html>
